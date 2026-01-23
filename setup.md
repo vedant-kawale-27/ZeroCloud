@@ -1,4 +1,3 @@
-#!/bin/bash
 1. Initial Essentials
 After installing Termux (preferably from [F-Droid](https://f-droid.org/en/packages/com.termux/) or [GitHub](https://github.com/termux/termux-app), as the Play Store version is outdated), run these commands to update the core packages and set up storage access:
 
