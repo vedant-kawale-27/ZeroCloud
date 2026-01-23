@@ -42,7 +42,7 @@ termux-setup-storage
    ```bash
    ssh [username]@[IP_address] -p 8022
    ```
-   Example: ssh u0_a456@192.168.x.x -p 8022
+   Example: `ssh u0_a456@192.168.x.x -p 8022`
 
    Troubleshooting
    Connection Refused: Ensure sshd is actually running in Termux and you are using port 8022.
