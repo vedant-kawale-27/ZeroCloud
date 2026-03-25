@@ -4,6 +4,17 @@
 
 ZeroCloud bridges the gap between your mobile world and your desktop experience. By setting up a secure server on your phone, it allows you to mount your entire Android file system as a local, accessible drive (e.g., `Z:`) directly within **Windows File Explorer**. No cables, no third-party cloud apps—just your data, accessible over your local Wi-Fi. 🏠💨
 
+<nobr><a href="https://termux.dev/"><img src="https://avatars.githubusercontent.com/u/8104776?s=200&v=4" width="28" height="28" style="vertical-align: middle;"><img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logoColor=white" style="vertical-align: middle;"></a></nobr>
+|
+<nobr><a href="https://www.openssh.org/"><img src="https://upload.wikimedia.org/wikipedia/en/6/65/OpenSSH_logo.png" width="28" height="28" style="vertical-align: middle;"><img src="https://img.shields.io/badge/OpenSSH-%23000000.svg?style=for-the-badge&logo=openssh&logoColor=white" style="vertical-align: middle;"></a></nobr>
+|
+<nobr><a href="https://winfsp.dev/"><img src="https://avatars.githubusercontent.com/u/40278977?s=200&v=4" width="28" height="28" style="vertical-align: middle;"><img src="https://img.shields.io/badge/WinFsp-FUSE_for_Windows-45f0df?style=for-the-badge&logo=windows&logoColor=white" style="vertical-align: middle;"></a></nobr>
+|
+[![SSHFS](https://img.shields.io/badge/SSHFS-Filesystem-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/winfsp/sshfs-win)
+|
+[![SFTP](https://img.shields.io/badge/Protocol-SFTP-purple?style=for-the-badge)](https://www.geeksforgeeks.org/computer-networks/sftp-file-transfer-protocol/)\
+![NAS](https://img.shields.io/badge/System-Phone--NAS-orange?style=for-the-badge)
+
 ---
 
 ### **🌟 Core Functionality**
