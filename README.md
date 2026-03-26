@@ -13,7 +13,7 @@ ZeroCloud bridges the gap between your mobile world and your desktop experience.
 [![SSHFS](https://img.shields.io/badge/SSHFS-Filesystem-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/winfsp/sshfs-win)
 |
 [![SFTP](https://img.shields.io/badge/Protocol-SFTP-purple?style=for-the-badge)](https://www.geeksforgeeks.org/computer-networks/sftp-file-transfer-protocol/)\
-![NAS](https://img.shields.io/badge/System-Phone--NAS-orange?style=for-the-badge)
+[![NAS](https://img.shields.io/badge/System-Phone--NAS-orange?style=for-the-badge)](https://github.com/vedant-kawale-27/ZeroCloud/blob/main/setup.md)
 
 ---
 
