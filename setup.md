@@ -37,7 +37,6 @@ termux-setup-storage
    ifconfig
    ```
    Look for the inet address under the wlan0 section (usually 192.168.x.x).
-   Note: Termux runs SSH on port 8022 instead of the standard port 22 to avoid requiring root permissions.
 
    *Start the SSH Server\
    To turn the server on, simply type:
@@ -54,11 +53,12 @@ termux-setup-storage
    Example: `ssh u0_a456@192.168.x.x -p 8022`
 
    Troubleshooting\
-   Connection Refused: Ensure sshd is actually running in Termux and you are using port 8022.
+   Connection Refused: Ensure sshd is actually running in Termux and you are using port 8022.\
+   Note: Termux runs SSH on port 8022 instead of the standard port 22 to avoid requiring root permissions.\
    Same Network: Ensure both your phone and PC are connected to the same Wi-Fi network(local network).
 
 
-3. SSHFS-Win Setup\
+4. SSHFS-Win Setup\
    SSHFS for Windows allows you to mount remote Linux/Unix directories as local drives using SSH/SFTP, primarily via SSHFS-Win.
    
    *Download and Install WinFsp\
@@ -67,7 +67,7 @@ termux-setup-storage
    c. Download the latest WinFsp installer (usually named like winfsp-2.0.xxxxx.msi)\
    d. Run the installer\
    e. Click Next → Next → Install\
-   f. Click Finish\
+   f. Click Finish
 
     *Download and Install SSHFS-Win\
     a. Go to [https://github.com/winfsp/sshfs-win/releases](https://github.com/winfsp/sshfs-win/releases)\
@@ -75,7 +75,7 @@ termux-setup-storage
     c. Download sshfs-win-xxxxx-x64.msi (the .msi file)\
     d. Run the installer\
     e. Click Next → Next → Install\
-    f. Click Finish\
+    f. Click Finish
 
    
 5. Map Network Drive in Windows
@@ -84,7 +84,7 @@ termux-setup-storage
    b. Right-click on **This PC**\
    c. Click **Map network drive**\
    d. Choose a **drive letter** (e.g., `Z:`)\
-   e. In the **Folder** field, enter this format:\
+   e. In the **Folder** field, enter this format:
    ```bash
    \\sshfs\[username]@[IP_address]!8022
    ```
@@ -92,9 +92,9 @@ termux-setup-storage
    f. Click **Finish**
 
 6. Enter Your Password\
-A credential window will appear:
+   A credential window will appear:
 
    a. **Username:** Your Termux username (e.g., `u0_a123`)\
    b. **Password:** Your Termux password (the one you set with `passwd`)\
    c. **Optional:** Check "**Remember my credentials**" to avoid typing password every time\
-   d. Click **OK**\
+   d. Click **OK**
