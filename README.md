@@ -14,6 +14,13 @@ ZeroCloud bridges the gap between your mobile world and your desktop experience.
 |
 [![SFTP](https://img.shields.io/badge/Protocol-SFTP-purple?style=for-the-badge)](https://www.geeksforgeeks.org/computer-networks/sftp-file-transfer-protocol/)\
 [![NAS](https://img.shields.io/badge/System-Phone--NAS-orange?style=for-the-badge)](https://github.com/vedant-kawale-27/ZeroCloud/blob/main/setup.md)
+<p align="center">
+<img src="images/Termux.jpg" width="20%"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/cmd.png" width="30%"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/networkdrive.png" width="30%"/> 
+</p>
 
 ---
 
